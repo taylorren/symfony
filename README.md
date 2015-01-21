@@ -1,3 +1,5 @@
 ##README
 
-This is the first time I am using GitBook to write a book. 
+This book is written in Chinese for Chinese PHP programmers (entry to intermediate level). 
+
+After reading through this book, I hope 
