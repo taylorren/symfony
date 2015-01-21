@@ -5,6 +5,7 @@
 * Linux操作系统。我个人比较喜欢的是[Ubuntu][1]。
 * Web服务器。我个人使用的是[Apache][2]，老牌、稳定、文档丰富。另外可选的比如[Nginx][3]。
 * 数据库服务器。我使用的是[MySQL][4]。另外可选的比如[Postgre SQL][5]，[SQLite][6]，[MongoDB][7]等。
+* Web应用编程语言。本书将只讨论[PHP][8]和[Dart][9]。对其它语言将不做讨论。
 
 
 [1]: http://www.ubuntu.org
@@ -14,7 +15,8 @@
 [5]: http://www.postgresql.org/
 [6]: http://www.sqlite.org/
 [7]: http://www.mongodb.org/
-
+[8]: http://php.net
+[9]: https://www.dartlang.org/
 
 
 
