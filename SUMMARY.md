@@ -1,7 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-* [LAMP](lamp.md)
-   * [安装虚拟机和Vagrant](install vbox and vagrant.md)
-   * [安装Ubuntu](install_ubuntu.md)
+* [LAMP](01 lamp.md)
+   * [安装虚拟机](01.01 install vbox.md)
+   * [安装Vagrant](01.02 install vagrant.md)
+   * [安装Ubuntu](install ubuntu.md)
 
