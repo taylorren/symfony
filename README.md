@@ -21,4 +21,9 @@ After reading through this book, the readers shall have a better understanding i
 
 We will build from scratch a personal book collection site to learn Symfony 2 framework. This site will have the following features:
 
-* A secured backend 
+我们将学习Symfony 2框架来从头建立一个个人书籍收藏站点。这个站点将有如下特性：
+
+* A secured backend to CRUD a book entry and other related operations. 
+* 一个安全的后台来CRUD一本书籍和其它相关操作。
+* A frontend to display book collections, and other related operations. 
+* 一个前台来显示书籍收藏和其它相关操作。
