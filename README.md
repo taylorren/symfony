@@ -27,3 +27,7 @@ We will build from scratch a personal book collection site to learn Symfony 2 fr
 * 一个安全的后台来CRUD一本书籍和其它相关操作。
 * A frontend to display book collections, and other related operations. 
 * 一个前台来显示书籍收藏和其它相关操作。
+
+Let's get started!
+
+让我们开始吧！
