@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* LAMP
+* [LAMP](lamp.md)
 
