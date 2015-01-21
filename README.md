@@ -18,3 +18,7 @@ After reading through this book, the readers shall have a better understanding i
   * 控制器，路由，实体，仓库，模板
   * Bundle
   * 包
+
+We will build from scratch a personal book collection site to learn Symfony 2 framework. This site will have the following features:
+
+* A secured backend 
