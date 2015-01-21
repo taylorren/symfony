@@ -14,4 +14,7 @@ After reading through this book, the readers shall have a better understanding i
 * Symfony 2安装和自举式配置
 * Important concepts and terminologies in Symfony 2
 * Symfony 2中重要的概念和术语
-* 
+  * Controller, Routes, Entity, Repository, Templates
+  * 控制器，路由，实体，仓库，模板
+  * Bundle
+  * 包
