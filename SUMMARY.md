@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* [README](summary.md)
+* [一个常规的LAMP设置](lamp.md)
 
