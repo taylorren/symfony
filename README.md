@@ -31,3 +31,7 @@ We will build from scratch a personal book collection site to learn Symfony 2 fr
 Let's get started!
 
 让我们开始吧！
+
+(All other contents in this book will be written in Chinese.)
+
+（本书其它内容将均以中文写成。）
