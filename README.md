@@ -12,4 +12,6 @@ After reading through this book, the readers shall have a better understanding i
 * 一个典型的Web应用所使用的MVC结构
 * Symfony 2 installation, bootstrapping
 * Symfony 2安装和自举式配置
+* Important concepts and terminologies in Symfony 2
+* Symfony 2中重要的概念和术语
 * 
