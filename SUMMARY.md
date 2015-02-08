@@ -15,7 +15,7 @@
 	* [Doctrine](02.02 doctrine.md)
 	* [Twig](02.03 twig.md)
 	* [Composer](02.04 composer.md)
-* [3 Symfony重要概念](03 concept.md)
+* [Symfony重要概念](03 concept.md)
 	* [MVC](03.01 mvc.md)
 	* [Bundle/包](03.01 bundle.md)
 	* [Route/路由](03.03 route.md)
