@@ -23,6 +23,7 @@
 	* [Entity/实体](03.05 entity.md)
 	* [Repository/仓库](03.06 repository.md)
 	* [Template/模板](03.07 template.md)
+	* [Test/测试](03.08 test.md)
 * [藏书管理程序的结构](04 app structure.md)
 * [创建应用](05 app creation.md)
 	* [建立版本管理](05.01 git.md)
