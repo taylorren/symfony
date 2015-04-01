@@ -21,7 +21,7 @@
 	* [Route/路由](0303 route.md)
 	* [Controller/控制器](0304 controller.md)
 	* [Entity/实体](03.05 entity.md)
-	* [Repository/仓库](0306 repository.md)
+	* [Repository/仓库](0306_repository.md)
 	* [Template/模板](0307 template.md)
 	* [Test/测试](0308 test.md)
 * [藏书管理程序的结构](04 app structure.md)
