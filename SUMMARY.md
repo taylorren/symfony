@@ -25,8 +25,11 @@
 	* [Template/模板](03.07 template.md)
 	* [Test/测试](03.08 test.md)
 * [藏书管理程序的结构](04 app structure.md)
-* [创建应用](05 app creation.md)
+* [创建应用](05 creation.md)
 	* [建立版本管理](05.01 git.md)
+	* [建立数据库](05.02 database.md)
+	* [应用结构](05.03 structure.md)
+	* [清理一下](05.04 clean.md)
 
 
 
