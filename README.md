@@ -12,18 +12,18 @@ After reading through this book, the readers shall have a better understanding i
 
 * MVC structure of a typical web application
 * 一个典型的Web应用所使用的MVC结构
-* Symfony 2 installation, bootstrapping
-* Symfony 2安装和自举式配置
+* Symfony 3 installation, bootstrapping
+* Symfony 3安装和自举式配置
 * Important concepts and terminologies in Symfony 2
-* Symfony 2中重要的概念和术语
+* Symfony 3中重要的概念和术语
   * Controller, Routes, Entity, Repository, Templates
   * 控制器，路由，实体，仓库，模板
   * Bundle
   * 包
 
-We will build from scratch a personal book collection site to learn Symfony 2 framework. This site will have the following features:
+We will build from scratch a personal book collection site to learn Symfony 3 framework. This site will have the following features:
 
-我们将学习Symfony 2框架来从头建立一个个人书籍收藏站点。这个站点将有如下特性：
+我们将学习Symfony 3框架来从头建立一个个人书籍收藏站点。这个站点将有如下特性：
 
 * A secured backend to CRUD a book entry and other related operations. 
 * 一个安全的后台来CRUD一本书籍和其它相关操作。
@@ -41,3 +41,4 @@ Let's get started!
 [TR@SOE](mailto:taylor.ren@gmail.com)
 
 2015.1.21
+Updated: 2016.3.17
