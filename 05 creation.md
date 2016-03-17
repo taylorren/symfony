@@ -38,7 +38,7 @@ $ symfony new the_new_project_name
 
 ##目录结构说明
 
-一个空空如也的Symfony 2框架约莫有33M，这也是SF2被称为重量级框架的原因。它的目录结构如下：
+一个空空如也的Symfony 3框架约莫有33M，这也是SF3被称为重量级框架的原因。它的目录结构如下：
 
 ![](img/5.0-1.png)
 
