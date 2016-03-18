@@ -30,7 +30,8 @@ $ symfony new the_new_project_name
 
 请根据实际情况将`the_new_project_name`替换为更有意义的名字，在我们这本书中，我们用的项目名称`symfony`。
 
->**注意：**在我们虚拟机中，由于`/vagrant`这个目录并不是实实在在的Linux系统中的目录，而是一个Windows系统下映射过去的目录，上面的命令会执行出错。此时，我们可以在对应的Windows目录中进行如上操作。这样生成的应用框架是可以在Linux中使用的。
+>**注意：**在我们虚拟机中，由于`/vagrant`这个目录并不是实实在在的Linux系统中的目录，而是一个Windows系统下映射过去的目录，上面的命令有可能会执行出错（取决于你使用的Vagrant版本）。此时，我们可以在对应的Windows目录中进行如上操作。这样生成的应用框架是可以在Linux中使用的。
+> 或者，可以参考SF官方文档中的[方法](http://symfony.com/doc/master/book/installation.html#creating-symfony-applications-without-the-installer)，用Composer来创建项目。
 
 这个命令将在`vagrant`目录下创建一个`symfony`目录（也就是我们的项目名字），并在该目录下进行必要的设置，创建一个全新的Symfony应用框架。
 
@@ -38,23 +39,22 @@ $ symfony new the_new_project_name
 
 ##目录结构说明
 
-一个空空如也的Symfony 3框架约莫有33M，这也是SF3被称为重量级框架的原因。它的目录结构如下：
+一个空空如也的Symfony 3框架约莫有32M，这也是SF3被称为重量级框架的原因。它的目录结构如下：
 
 ![](img/5.0-1.png)
 
 ###`app`目录
 
-这个目录是整个框架的运行核心。一些重要的核心文件，如`autoload.php`，`APPKernel`，以及我们以后经常会用到的`console`文件都在该目录中。
+这个目录是整个框架的运行核心。一些重要的核心文件，如`autoload.php`，`AppKernel`等文件都在该目录中。
 
 它又包括几个子目录，也非常重要。
 
-* `cache`：这是存放缓存的地方。根据当前环境不同，又会有`prod`，`dev`，`test`等不同的子目录。
-* `logs`：这是应用日志存放的地方。
 * `config`：这里存放应用所有的配置。在日后讨论中，我们会慢慢接触这些文件。
+* `Resources`：这里可以存放应用级别的资源，如模板文件（在`views`子目录下）。
 
 ###`bin`目录
 
-这里一般不会有什么内容。
+* `console`：该文件是SF命令行界面，我们稍后在开发过程中会经常用到这个命令。
 
 ###`src`目录
 
@@ -67,15 +67,29 @@ $ symfony new the_new_project_name
 * `Resources\views`：存放模板，即MVC中的V。
 * `Tests`：存放单元测试和功能测试代码。
 
+在项目刚创建完成时，这些目录（除了`Controller`）都不存在。我们在日后开发过程中，可以选择生成。
+
+###`tests`目录
+
+此处存放所有的测试文件，包括单元测试和功能测试。
+
+###`var`目录
+
+该目录中有三个子目录。
+
+* `cache`：存放SF编译用户代码和系统代码后的缓存。根据实际使用情况，又可能会有`prod`，`dev`和`test`子目录，分别对应生产、开发、测试环境。
+* `logs`：存放日志文件，如`dev.log`对应的是开发环境下的日志文件。
+* `sessions`：存放PHP和SF运行时创建的对话信息。
+
 ###`vendor`目录
 
 所有第三方的包和代码存放在此处。一般情况下我们在此处进行操作。
 
 ###`web`目录
 
-这个目录是SF2应用开放给Web服务器的入口，也就是我们常规情况下访问`http://www.somewhere.com`时，Web服务器所访问的根目录。请不要和我们之前说的“项目根目录”混淆。
+这个目录是SF3应用开放给Web服务器的入口，也就是我们常规情况下访问`http://www.somewhere.com`时，Web服务器所访问的根目录。请不要和我们之前说的“项目根目录”混淆。
 
-在这个目录中，有SF2应用的入口文件：`app.php`（生产模式）和`app_dev.php`（开发模式）。在实际应用中，我们访问的是`app.php`——当然，因为有重写规则的存在和该目录下`.htaccess`文件的配合，我们访问一个SF2应用时，不需要指明`app.php`，而可以直接用类似`http://www.somewhere.com/path/to/resource`这样的方式。在开发时，我们更多的是使用`app_dev.php`，此时我们访问的URI形如：**`http://www.somewhere.com/path/to/resource`**。
+在这个目录中，有SF3应用的入口文件：`app.php`（生产模式）和`app_dev.php`（开发模式）。在实际应用中，我们访问的是`app.php`——当然，因为有重写规则的存在和该目录下`.htaccess`文件的配合，我们访问一个SF应用时，不需要指明`app.php`，而可以直接用类似`http://www.somewhere.com/path/to/resource`这样的方式。在开发时，我们更多的是使用`app_dev.php`，此时我们访问的URI形如：**`http://www.somewhere.com/app_dev.php/path/to/resource`**。
 
 ##远端调试
 
@@ -103,6 +117,8 @@ if (isset($_SERVER['HTTP_CLIENT_IP'])
 
 ![](img/5.0-2.png)
 
-看到这个界面，那么我们的SF2应用创建就大功告成。接下来就是真正的开发过程了。
+看到这个界面，那么我们的SF应用创建就大功告成。接下来就是真正的开发过程了。
+
+**注意**：经过修改的这个`app_dev.php`程序可千万不要放到生产环境中，这会带来巨大的安全风险。因此，我一般会将这个文件放入版本控制中的被忽略文件列表中（见下一节[建立版本控制](05.01 git)）。
 
 不过在进入开发之前，我们先要进行代码仓库的管理。
