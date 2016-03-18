@@ -14,7 +14,7 @@ After reading through this book, the readers shall have a better understanding i
 * 一个典型的Web应用所使用的MVC结构
 * Symfony 3 installation, bootstrapping
 * Symfony 3安装和自举式配置
-* Important concepts and terminologies in Symfony 2
+* Important concepts and terminologies in Symfony 3
 * Symfony 3中重要的概念和术语
   * Controller, Routes, Entity, Repository, Templates
   * 控制器，路由，实体，仓库，模板
