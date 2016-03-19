@@ -10,6 +10,7 @@
    * [安装MySQL](01.06 install mysql.md)
    * [最后的微调](01.07 final touchup.md)
    * [设置一个虚拟主机](01.08 virtual host.md)
+   * [一个趁手的IDE](01.09 IDE.md)
 * [Symfony 3和重要构件](02 symfony.md)
 	* [Symfony 3](02.01 symfony.md)
 	* [Doctrine](02.02 doctrine.md)
@@ -29,7 +30,7 @@
 	* [建立版本管理](05.01 git.md)
 	* [建立数据库](05.02 database.md)
 	* [应用结构](05.03 structure.md)
-	* [清理一下](05.04 clean.md)
+	* [样本数据](05.04 fixture.md)
 
 
 
