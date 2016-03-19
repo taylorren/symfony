@@ -30,6 +30,10 @@ We will build from scratch a personal book collection site to learn Symfony 3 fr
 * A frontend to display book collections, and other related operations. 
 * 一个前台来显示书籍收藏和其它相关操作。
 
+The full code repository can be found [here](https://github.com/taylorren/rsywx_tutorial). 
+
+本教程所有代码可以在[这里](https://github.com/taylorren/rsywx_tutorial)下载。
+
 Let's get started!
 
 让我们开始吧！
