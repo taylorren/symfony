@@ -30,7 +30,8 @@
 	* [建立版本管理](05.01 git.md)
 	* [建立数据库](05.02 database.md)
 	* [应用结构](05.03 structure.md)
-	* [样本数据](05.04 fixture.md)
+	* [建立数据库实体](05.04 entity.md)
+	* [样本数据](05.05 fixture.md)
 
 
 
