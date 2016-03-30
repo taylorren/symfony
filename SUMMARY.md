@@ -32,6 +32,7 @@
 	* [应用结构](05.03 structure.md)
 	* [建立数据库实体](05.04 entity.md)
 	* [样本数据](05.05 fixture.md)
+	* [路由](05.06 router.md)
 
 
 

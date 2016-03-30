@@ -1,4 +1,4 @@
-CREATE DATABASE  IF NOT EXISTS `rsywx` /*!40100 DEFAULT CHARACTER SET utf8 */;
+CREATE DATABASE  IF NOT EXISTS `rsywx_test` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `rsywx`;
 -- MySQL dump 10.13  Distrib 5.6.23, for Win64 (x86_64)
 --
