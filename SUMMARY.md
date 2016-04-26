@@ -35,3 +35,4 @@
 	* [路由](05.06 router.md)
     * [模板](05.07 template.md)
     * [开始编写首页](05.08 index.md)
+    * [书籍详情页面](05.09 detail.md)
