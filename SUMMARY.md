@@ -34,6 +34,4 @@
 	* [样本数据](05.05 fixture.md)
 	* [路由](05.06 router.md)
     * [模板](05.07 template.md)
-
-
-
+    * [开始编写首页](05.08 index.md)
